@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
+	"github.com/mac-zhou/gopacket"
 )
 
 // NgWriterOptions holds options for creating a pcapng file

@@ -3,6 +3,7 @@
 // Use of this source code is governed by a BSD-style license
 // that can be found in the LICENSE file in the root of the source
 // tree.
+//go:build linux && go1.9
 // +build linux,go1.9
 
 package pcapgo
@@ -19,7 +20,7 @@ import (
 	"golang.org/x/net/bpf"
 	"golang.org/x/sys/unix"
 
-	"github.com/google/gopacket"
+	"github.com/mac-zhou/gopacket"
 )
 
 var hdrLen = unix.CmsgSpace(0)
