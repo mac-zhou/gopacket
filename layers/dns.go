@@ -72,6 +72,7 @@ const (
 	DNSTypeSRV   DNSType = 33 // server discovery [RFC2782] [RFC6195]
 	DNSTypeNAPTR DNSType = 35
 	DNSTypeOPT   DNSType = 41 // OPT Pseudo-RR [RFC6891]
+	DNSTypeSVCB  DNSType = 64
 	DNSTypeHTTPS DNSType = 65
 	DNSTypeURI   DNSType = 256 // URI RR [RFC7553]
 )
@@ -122,6 +123,8 @@ func (dt DNSType) String() string {
 		return "OPT"
 	case DNSTypeURI:
 		return "URI"
+	case DNSTypeSVCB:
+		return "SVCB"
 	case DNSTypeHTTPS:
 		return "HTTPS"
 	}
