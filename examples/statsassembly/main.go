@@ -18,11 +18,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/google/gopacket/examples/util"
-	"github.com/google/gopacket/layers"
-	"github.com/google/gopacket/pcap"
-	"github.com/google/gopacket/tcpassembly"
 	"github.com/mac-zhou/gopacket"
+	"github.com/mac-zhou/gopacket/examples/util"
+	"github.com/mac-zhou/gopacket/layers"
+	"github.com/mac-zhou/gopacket/pcap"
+	"github.com/mac-zhou/gopacket/tcpassembly"
 )
 
 var iface = flag.String("i", "eth0", "Interface to get packets from")

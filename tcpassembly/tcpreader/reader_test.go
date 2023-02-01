@@ -13,9 +13,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/google/gopacket/layers"
-	"github.com/google/gopacket/tcpassembly"
 	"github.com/mac-zhou/gopacket"
+	"github.com/mac-zhou/gopacket/layers"
+	"github.com/mac-zhou/gopacket/tcpassembly"
 )
 
 var netFlow gopacket.Flow

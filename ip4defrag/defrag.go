@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/gopacket/layers"
 	"github.com/mac-zhou/gopacket"
+	"github.com/mac-zhou/gopacket/layers"
 )
 
 // Quick and Easy to use debug code to trace

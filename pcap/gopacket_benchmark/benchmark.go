@@ -30,10 +30,10 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/google/gopacket/layers"
-	"github.com/google/gopacket/pcap"
-	"github.com/google/gopacket/tcpassembly"
 	"github.com/mac-zhou/gopacket"
+	"github.com/mac-zhou/gopacket/layers"
+	"github.com/mac-zhou/gopacket/pcap"
+	"github.com/mac-zhou/gopacket/tcpassembly"
 )
 
 var decodeLazy *bool = flag.Bool("lazy", false, "If true, use lazy decoding")
